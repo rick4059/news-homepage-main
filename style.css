@@ -1,7 +1,34 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url('assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+  }
+body {
+    font-family: "Fira Sans";
+}
 .attribution { 
     font-size: 11px; text-align: center; 
 }
     
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+nav{
+    width: 100vw;
+    height: 10vh;
+    border:5px solid red;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline; 
+    float: right; 
+    padding: 20px;  
+}
+
+.logo{
+    float: left;
 }
